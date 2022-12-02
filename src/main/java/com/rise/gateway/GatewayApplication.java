@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * @author 张牧之
  * @date 2022年12月02日 11:17 PM
- * @Email lichang.zhang@jgdt.com
+ * @Email zhanglichang99@gmail.com
  */
 
 @SpringBootApplication
