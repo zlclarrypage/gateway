@@ -6,8 +6,8 @@
 
     <groupId>com.rise</groupId>
     <artifactId>gateway</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -16,29 +16,13 @@
         <relativePath/>
     </parent>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>gateway-model</module>
+        <module>gateway-client</module>
+        <module>gateway-dao</module>
+        <module>gateway-repository</module>
+        <module>gateway-service</module>
+        <module>gateway-provider</module>
+        <module>gateway-api</module>
+    </modules>
 </project>
