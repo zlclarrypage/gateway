@@ -1,4 +1,0 @@
-server:
-  port: 9700
-  servlet:
-    context-path: /gateway
